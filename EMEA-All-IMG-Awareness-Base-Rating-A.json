@@ -1,0 +1,907 @@
+{
+	"logicalRestriction": {
+		"forSegment": false,
+		"operator": "AND",
+		"restrictions": [
+			{
+				"bucketRestriction": {
+					"forSegment": false,
+					"bkt": {
+						"Lbl": "*",
+						"Cnt": 3537804,
+						"Id": -1,
+						"Cmp": "IS_NOT_NULL",
+						"Vals": []
+					},
+					"ignored": false,
+					"attr": "Contact.Email"
+				}
+			},
+			{
+				"bucketRestriction": {
+					"forSegment": false,
+					"bkt": {
+						"Lbl": "Yes",
+						"Cnt": 2400855,
+						"Id": 1,
+						"Cmp": "EQUAL",
+						"Vals": [
+							"No"
+						]
+					},
+					"ignored": false,
+					"attr": "Contact.user_leademailinvalid"
+				}
+			},
+			{
+				"bucketRestriction": {
+					"forSegment": false,
+					"bkt": {
+						"Lbl": "USCAN",
+						"Cnt": 786897,
+						"Id": 17,
+						"Cmp": "IN_COLLECTION",
+						"Vals": [
+							"EMEA"
+						]
+					},
+					"ignored": false,
+					"attr": "Contact.user_leadglobal_region__c"
+				}
+			},
+			{
+				"logicalRestriction": {
+					"forSegment": false,
+					"operator": "OR",
+					"restrictions": [
+						{
+							"bucketRestriction": {
+								"forSegment": false,
+								"bkt": {
+									"Lbl": "*",
+									"Cnt": 86350,
+									"Id": -1,
+									"Cmp": "CONTAINS",
+									"Vals": [
+										"CT",
+										"Computed Tomography",
+										"MR",
+										"XR",
+										"WHXR",
+										"Radio",
+										"Fluoroscopy",
+										"Imaging Digital Solution",
+										"Interventional Image Guided Systems",
+										"Magnetic Resonance Imaging (MRI)",
+										"Mammography",
+										"Molecular Imaging",
+										"Radiography Systems",
+										"Surgical Imaging",
+										"computed-tomograpghy",
+										"CT imaging",
+										"Discovery RT",
+										"Revolution Frontier",
+										"FastStroke",
+										"Revolution™ Apex Platform",
+										"CT Scan",
+										"Card IQ",
+										"CT Scanner",
+										"Revolution Ascend",
+										"Revolution Frontier Gen 3",
+										"Revolution Maxima",
+										"SnapShot Freeze 2",
+										"surgery equipment",
+										"Revolution Apex",
+										"TrueFidelity",
+										"Effortless Workflow",
+										"Discovery Rt",
+										"Discovery RF",
+										"fluoroscopy systems",
+										"Digital Experts Access",
+										"DoseWatch",
+										"Imaging 360",
+										"Imaging Insights",
+										"Imaging Protocol",
+										"Allia",
+										"Allia IGS 5",
+										"Allia IGS 7",
+										"3D Stent",
+										"EVAR Assist",
+										"Embo Assit",
+										"Needle Assist",
+										"PCI Assist",
+										"Vessel Assist",
+										"Valve Assist",
+										"Liver Assist",
+										"Interventional Image",
+										"Magnetic Resonance Imaging",
+										"MRI",
+										"Signa MR",
+										"MRI Scanner",
+										"SIGNA™ 1.5T MRI Scanners",
+										"SIGNA™ 3T MRI Scanners",
+										"SIGNA™ 7T",
+										"SIGNA™ PET/MR AIR™",
+										"breast imaging technology",
+										"mammogram",
+										"Senographe Pristina",
+										"Senographe Crystal Nova",
+										"SenoBrightTM HD",
+										"Seno Iris",
+										"Pristina Dueta",
+										"Pristina Serena",
+										"Profound",
+										"Sensory Suite",
+										"Serena Bright",
+										"3D breast imaging technology",
+										"3D mammography solutions",
+										"Omni Legend",
+										"Discovery MI Gen 2",
+										"Discovery MI DR",
+										"Discovery IQ",
+										"Motionfree",
+										"Nuclear Medicine",
+										"StartGuide",
+										"Myospect",
+										"NM/CT 870",
+										"NM/CT 870 DR",
+										"NM/CT 860",
+										"NM/CT 830",
+										"PET Radiopharmacy",
+										"PETtrace 800",
+										"PET",
+										"PET Radiopchemistry",
+										"Cyclotrons",
+										"Tracercenter",
+										"MI Digital Solution",
+										"Xeleris V",
+										"Xeleris 4DR",
+										"MI System",
+										"Fixed Radiography systems",
+										"Mobile Radiography System",
+										"Definium",
+										"AMX Navigate",
+										"X-ray",
+										"Definium 656 HD X-ray",
+										"X-ray system",
+										"Discovery XR",
+										"Helix",
+										"Definium pace select",
+										"Mobile X-ray",
+										"AMX 240",
+										"Auto Image Paste",
+										"Volume RAD",
+										"Dual Engery Substraction",
+										"OEC 3D",
+										"OEC Elite",
+										"OEC Elite CFD",
+										"OEC MiniView",
+										"OEC One"
+									]
+								},
+								"ignored": false,
+								"attr": "Contact.user_leadinterest_type__c"
+							}
+						},
+						{
+							"bucketRestriction": {
+								"forSegment": false,
+								"bkt": {
+									"Lbl": "MR",
+									"Cnt": 27553,
+									"Id": 478,
+									"Cmp": "CONTAINS",
+									"Vals": [
+										"CT",
+										"Computed Tomography",
+										"MR",
+										"WH",
+										"RRF",
+										"X-RAY",
+										"BMD",
+										"Radio",
+										"computed-tomograpghy",
+										"CT imaging",
+										"Discovery RT",
+										"Revolution Frontier",
+										"FastStroke",
+										"Revolution™ Apex Platform",
+										"CT Scan",
+										"Card IQ",
+										"CT Scanner",
+										"Revolution Ascend",
+										"Revolution Frontier Gen 3",
+										"Revolution Maxima",
+										"SnapShot Freeze 2",
+										"surgery equipment",
+										"Revolution Apex",
+										"TrueFidelity",
+										"Effortless Workflow",
+										"Discovery Rt",
+										"Discovery RF",
+										"fluoroscopy systems",
+										"Digital Experts Access",
+										"DoseWatch",
+										"Imaging 360",
+										"Imaging Insights",
+										"Imaging Protocol",
+										"Allia",
+										"Allia IGS 5",
+										"Allia IGS 7",
+										"3D Stent",
+										"EVAR Assist",
+										"Embo Assit",
+										"Needle Assist",
+										"PCI Assist",
+										"Vessel Assist",
+										"Valve Assist",
+										"Liver Assist",
+										"Interventional Image",
+										"Magnetic Resonance Imaging",
+										"MRI",
+										"Signa MR",
+										"MRI Scanner",
+										"SIGNA™ 1.5T MRI Scanners",
+										"SIGNA™ 3T MRI Scanners",
+										"SIGNA™ 7T",
+										"SIGNA™ PET/MR AIR™",
+										"Mammography",
+										"breast imaging technology",
+										"mammogram",
+										"Senographe Pristina",
+										"Senographe Crystal Nova",
+										"SenoBrightTM HD",
+										"Seno Iris",
+										"Pristina Dueta",
+										"Pristina Serena",
+										"Profound",
+										"Sensory Suite",
+										"Serena Bright",
+										"3D breast imaging technology",
+										"3D mammography solutions",
+										"Molecular Imaging",
+										"Omni Legend",
+										"Discovery MI Gen 2",
+										"Discovery MI DR",
+										"Discovery IQ",
+										"Motionfree",
+										"Nuclear Medicine",
+										"StartGuide",
+										"Myospect",
+										"NM/CT 870",
+										"NM/CT 870 DR",
+										"NM/CT 860",
+										"NM/CT 830",
+										"PET Radiopharmacy",
+										"PETtrace 800",
+										"PET",
+										"PET Radiopchemistry",
+										"Cyclotrons",
+										"Tracercenter",
+										"MI Digital Solution",
+										"Xeleris V",
+										"Xeleris 4DR",
+										"MI System",
+										"Radiography Systems",
+										"Fixed Radiography systems",
+										"Mobile Radiography System",
+										"Definium",
+										"AMX Navigate",
+										"X-ray",
+										"Definium 656 HD X-ray",
+										"X-ray system",
+										"Discovery XR",
+										"Helix",
+										"Definium pace select",
+										"Mobile X-ray",
+										"AMX 240",
+										"Auto Image Paste",
+										"Volume RAD",
+										"Dual Engery Substraction",
+										"Surgical Imaging",
+										"OEC 3D",
+										"OEC Elite",
+										"OEC Elite CFD",
+										"OEC MiniView",
+										"OEC One"
+									]
+								},
+								"ignored": false,
+								"attr": "Contact.user_contactimaging_product_interest__c"
+							}
+						},
+						{
+							"bucketRestriction": {
+								"forSegment": false,
+								"bkt": {
+									"Lbl": "Yes",
+									"Cnt": 24538,
+									"Id": 1,
+									"Cmp": "EQUAL",
+									"Vals": [
+										"Yes"
+									]
+								},
+								"ignored": false,
+								"attr": "Contact.user_leadinterest_ct"
+							}
+						},
+						{
+							"bucketRestriction": {
+								"forSegment": false,
+								"bkt": {
+									"Lbl": "Yes",
+									"Cnt": 6809,
+									"Id": 1,
+									"Cmp": "EQUAL",
+									"Vals": [
+										"Yes"
+									]
+								},
+								"ignored": false,
+								"attr": "Contact.user_leadinterest_bone_health"
+							}
+						},
+						{
+							"bucketRestriction": {
+								"forSegment": false,
+								"bkt": {
+									"Lbl": "Yes",
+									"Cnt": 11717,
+									"Id": 1,
+									"Cmp": "EQUAL",
+									"Vals": [
+										"Yes"
+									]
+								},
+								"ignored": false,
+								"attr": "Contact.user_leadinterest_mammo"
+							}
+						},
+						{
+							"bucketRestriction": {
+								"forSegment": false,
+								"bkt": {
+									"Lbl": "Yes",
+									"Cnt": 20848,
+									"Id": 1,
+									"Cmp": "EQUAL",
+									"Vals": [
+										"Yes"
+									]
+								},
+								"ignored": false,
+								"attr": "Contact.user_leadinterest_mr"
+							}
+						},
+						{
+							"bucketRestriction": {
+								"forSegment": false,
+								"bkt": {
+									"Lbl": "Yes",
+									"Cnt": 7575,
+									"Id": 1,
+									"Cmp": "EQUAL",
+									"Vals": [
+										"Yes"
+									]
+								},
+								"ignored": false,
+								"attr": "Contact.user_leadinterest_r_f"
+							}
+						},
+						{
+							"bucketRestriction": {
+								"forSegment": false,
+								"bkt": {
+									"Lbl": "Yes",
+									"Cnt": 7575,
+									"Id": 1,
+									"Cmp": "EQUAL",
+									"Vals": [
+										"Yes"
+									]
+								},
+								"ignored": false,
+								"attr": "Contact.user_leadinterest_radiography"
+							}
+						},
+						{
+							"bucketRestriction": {
+								"forSegment": false,
+								"bkt": {
+									"Lbl": "Yes",
+									"Cnt": 10904,
+									"Id": 1,
+									"Cmp": "EQUAL",
+									"Vals": [
+										"Yes"
+									]
+								},
+								"ignored": false,
+								"attr": "Contact.user_leadinterest_interventional"
+							}
+						},
+						{
+							"bucketRestriction": {
+								"forSegment": false,
+								"bkt": {
+									"Lbl": "Yes",
+									"Cnt": 2160,
+									"Id": 1,
+									"Cmp": "EQUAL",
+									"Vals": [
+										"Yes"
+									]
+								},
+								"ignored": false,
+								"attr": "Contact.user_leadinterest_nuclear_imaging_agents"
+							}
+						},
+						{
+							"bucketRestriction": {
+								"forSegment": false,
+								"bkt": {
+									"Lbl": "Yes",
+									"Cnt": 7405,
+									"Id": 1,
+									"Cmp": "EQUAL",
+									"Vals": [
+										"Yes"
+									]
+								},
+								"ignored": false,
+								"attr": "Contact.user_leadinterest_nuclear_medicine"
+							}
+						},
+						{
+							"bucketRestriction": {
+								"forSegment": false,
+								"bkt": {
+									"Lbl": "Yes",
+									"Cnt": 8091,
+									"Id": 1,
+									"Cmp": "EQUAL",
+									"Vals": [
+										"Yes"
+									]
+								},
+								"ignored": false,
+								"attr": "Contact.user_leadinterest_pet_ct"
+							}
+						},
+						{
+							"bucketRestriction": {
+								"forSegment": false,
+								"bkt": {
+									"Lbl": "Yes",
+									"Cnt": 1713,
+									"Id": 1,
+									"Cmp": "EQUAL",
+									"Vals": [
+										"Yes"
+									]
+								},
+								"ignored": false,
+								"attr": "Contact.user_leadinterest_pet_radio"
+							}
+						},
+						{
+							"bucketRestriction": {
+								"forSegment": false,
+								"bkt": {
+									"Lbl": "Yes",
+									"Cnt": 8075,
+									"Id": 1,
+									"Cmp": "EQUAL",
+									"Vals": [
+										"Yes"
+									]
+								},
+								"ignored": false,
+								"attr": "Contact.user_leadinterest_surgery"
+							}
+						},
+						{
+							"bucketRestriction": {
+								"forSegment": false,
+								"bkt": {
+									"Lbl": "Yes",
+									"Cnt": 189,
+									"Id": 1,
+									"Cmp": "EQUAL",
+									"Vals": [
+										"Yes"
+									]
+								},
+								"ignored": false,
+								"attr": "Contact.user_leadinterestcardioimaging"
+							}
+						},
+						{
+							"bucketRestriction": {
+								"forSegment": false,
+								"bkt": {
+									"Lbl": "Yes",
+									"Cnt": 592,
+									"Id": 1,
+									"Cmp": "EQUAL",
+									"Vals": [
+										"Yes"
+									]
+								},
+								"ignored": false,
+								"attr": "Contact.user_leadinterestenterpriseimaging"
+							}
+						},
+						{
+							"bucketRestriction": {
+								"forSegment": false,
+								"bkt": {
+									"Lbl": "Yes",
+									"Cnt": 128,
+									"Id": 1,
+									"Cmp": "EQUAL",
+									"Vals": [
+										"Yes"
+									]
+								},
+								"ignored": false,
+								"attr": "Contact.user_leadinterestimagingdigitalsolutions"
+							}
+						},
+						{
+							"bucketRestriction": {
+								"forSegment": false,
+								"bkt": {
+									"Lbl": "Yes",
+									"Cnt": 119,
+									"Id": 1,
+									"Cmp": "EQUAL",
+									"Vals": [
+										"Yes"
+									]
+								},
+								"ignored": false,
+								"attr": "Contact.user_leadinterestpetmr"
+							}
+						},
+						{
+							"bucketRestriction": {
+								"forSegment": false,
+								"bkt": {
+									"Lbl": "Yes",
+									"Cnt": 231,
+									"Id": 1,
+									"Cmp": "EQUAL",
+									"Vals": [
+										"Yes"
+									]
+								},
+								"ignored": false,
+								"attr": "Contact.user_leadinterestradiologyit"
+							}
+						},
+						{
+							"bucketRestriction": {
+								"forSegment": false,
+								"bkt": {
+									"Lbl": "Yes",
+									"Cnt": 48,
+									"Id": 1,
+									"Cmp": "EQUAL",
+									"Vals": [
+										"Yes"
+									]
+								},
+								"ignored": false,
+								"attr": "Contact.user_leadinterestspectct"
+							}
+						},
+						{
+							"bucketRestriction": {
+								"forSegment": false,
+								"bkt": {
+									"Lbl": "Radiology",
+									"Cnt": 36456,
+									"Id": 397,
+									"Cmp": "EQUAL",
+									"Vals": [
+										"Radiology"
+									]
+								},
+								"ignored": false,
+								"attr": "Contact.user_contactmdx_speciality__c"
+							}
+						},
+						{
+							"bucketRestriction": {
+								"forSegment": false,
+								"bkt": {
+									"Lbl": "Yes",
+									"Cnt": 130,
+									"Id": 1,
+									"Cmp": "EQUAL",
+									"Vals": [
+										"Yes"
+									]
+								},
+								"ignored": false,
+								"attr": "Contact.user_leadinterestneuroimaging"
+							}
+						},
+						{
+							"bucketRestriction": {
+								"forSegment": false,
+								"bkt": {
+									"Lbl": "Yes",
+									"Cnt": 122,
+									"Id": 1,
+									"Cmp": "EQUAL",
+									"Vals": [
+										"Yes"
+									]
+								},
+								"ignored": false,
+								"attr": "Contact.user_leadinterestradiologyinformationsystemris"
+							}
+						},
+						{
+							"bucketRestriction": {
+								"forSegment": false,
+								"bkt": {
+									"Lbl": "*",
+									"Cnt": 1055498,
+									"Id": -1,
+									"Cmp": "CONTAINS",
+									"Vals": [
+										"Radiologist",
+										"radiographer",
+										"TECHnologist",
+										"Biomedical engineers",
+										"Imaging",
+										"PACS",
+										"Sonographer",
+										"Purchase manager",
+										"Director",
+										"Mammographer",
+										"Mammo",
+										"MRI",
+										"Magnetic",
+										"Xray",
+										"X-ray",
+										"CT",
+										"Healthcare manager",
+										"Hospital Manager",
+										"Hospital Director",
+										"CIO",
+										"CEO",
+										"CFO",
+										"cardiologist",
+										"neurologist",
+										"oncologist",
+										"Surgeons",
+										"Radio",
+										"Biomed",
+										"Bio medical",
+										"Sono",
+										"Purchas",
+										"mammo",
+										"Hospital",
+										"Ultrasound",
+										"Healthcare",
+										"cardio",
+										"neuro",
+										"onco",
+										"Chief",
+										"Surg"
+									]
+								},
+								"ignored": false,
+								"attr": "Contact.user_job_function"
+							}
+						},
+						{
+							"bucketRestriction": {
+								"forSegment": false,
+								"bkt": {
+									"Lbl": "*",
+									"Cnt": 1059684,
+									"Id": -1,
+									"Cmp": "CONTAINS",
+									"Vals": [
+										"Radiologist",
+										"radiographer",
+										"TECHnologist",
+										"Biomedical engineers",
+										"Imaging",
+										"PACS",
+										"Sonographer",
+										"Purchase manager",
+										"Director",
+										"Mammographer",
+										"Mammo",
+										"MRI",
+										"Magnetic",
+										"Xray",
+										"X-ray",
+										"CT",
+										"Healthcare manager",
+										"Hospital Manager",
+										"Hospital Director",
+										"CIO",
+										"CEO",
+										"CFO",
+										"cardiologist",
+										"neurologist",
+										"oncologist",
+										"Surgeons",
+										"Radio",
+										"Biomed",
+										"Bio medical",
+										"Sono",
+										"Purchas",
+										"mammo",
+										"Hospital",
+										"Ultrasound",
+										"Healthcare",
+										"cardio",
+										"neuro",
+										"onco",
+										"Chief",
+										"Surg"
+									]
+								},
+								"ignored": false,
+								"attr": "Contact.Title"
+							}
+						}
+					],
+					"compositeSegmentBlock": false
+				}
+			},
+			{
+				"logicalRestriction": {
+					"forSegment": false,
+					"operator": "OR",
+					"restrictions": [
+						{
+							"bucketRestriction": {
+								"forSegment": false,
+								"bkt": {
+									"Lbl": "Yes",
+									"Cnt": 153,
+									"Id": 1,
+									"Cmp": "IS_NULL",
+									"Vals": []
+								},
+								"ignored": false,
+								"attr": "Contact.user_leadmarketingsuspended"
+							}
+						},
+						{
+							"bucketRestriction": {
+								"forSegment": false,
+								"bkt": {
+									"Lbl": "Yes",
+									"Cnt": 4085945,
+									"Id": 1,
+									"Cmp": "EQUAL",
+									"Vals": [
+										"No"
+									]
+								},
+								"ignored": false,
+								"attr": "Contact.user_leadmarketingsuspended"
+							}
+						}
+					],
+					"compositeSegmentBlock": false
+				}
+			},
+			{
+				"logicalRestriction": {
+					"forSegment": false,
+					"operator": "OR",
+					"restrictions": [
+						{
+							"bucketRestriction": {
+								"forSegment": false,
+								"bkt": {
+									"Lbl": "Yes",
+									"Cnt": 0,
+									"Id": 1,
+									"Cmp": "EQUAL",
+									"Vals": [
+										"No"
+									]
+								},
+								"ignored": false,
+								"attr": "Contact.user_contactisdeleted_marketo"
+							}
+						},
+						{
+							"bucketRestriction": {
+								"forSegment": false,
+								"bkt": {
+									"Lbl": "Yes",
+									"Cnt": 3952531,
+									"Id": 1,
+									"Cmp": "IS_NULL",
+									"Vals": []
+								},
+								"ignored": false,
+								"attr": "Contact.user_contactisdeleted_marketo"
+							}
+						}
+					],
+					"compositeSegmentBlock": false
+				}
+			},
+			{
+				"activityRestriction": {
+					"forSegment": false,
+					"cnt": [
+						0
+					],
+					"cmp": "IN_COLLECTION",
+					"restriction": {
+						"logicalRestriction": {
+							"forSegment": false,
+							"operator": "AND",
+							"restrictions": [
+								{
+									"bucketRestriction": {
+										"forSegment": false,
+										"bkt": {
+											"Lbl": "*",
+											"Cnt": -1,
+											"Id": -1,
+											"Cmp": "IN_COLLECTION",
+											"Vals": [
+												"Visit Webpage",
+												"Click Email",
+												"Fill Out Form",
+												"Click Link",
+												"Open Email",
+												"JiffleNow - Sessions",
+												"JiffleNow - Meetings"
+											]
+										},
+										"ignored": false,
+										"entityType": "MarketingActivity",
+										"attr": "Contact.EventType"
+									}
+								},
+								{
+									"bucketRestriction": {
+										"forSegment": false,
+										"bkt": {
+											"Lbl": "Ever",
+											"Cnt": -1,
+											"Id": -1,
+											"Cmp": "IS_NOT_NULL",
+											"Vals": [],
+											"Fltr": {
+												"Cmp": "LAST",
+												"Vals": [
+													180
+												],
+												"Period": "Day"
+											}
+										},
+										"ignored": false,
+										"entityType": "MarketingActivity",
+										"attr": "Contact.EventTimestamp"
+									}
+								}
+							],
+							"compositeSegmentBlock": false
+						}
+					}
+				}
+			}
+		],
+		"compositeSegmentBlock": false
+	}
+}
